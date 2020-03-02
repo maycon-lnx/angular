@@ -2,3 +2,7 @@ create table funcionario (ID_FUNC int(20), NOME varchar(255), SALARIO float(10,2
 
 
 create table depto (ID_DEPTO int(5), DESCRI varchar(255) PRIMARY KEY (ID_DEPTO));
+
+                                                                      
+novo:                                                                      
+create table depto (DESCRI varchar(255), ID_DEPTO int auto_increment, PRIMARY KEY (ID_DEPTO));
